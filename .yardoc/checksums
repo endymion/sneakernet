@@ -1,0 +1,5 @@
+app/models/registration.rb 70c70541a18636f5beb5b65af4e80e38a4936337
+app/helpers/application_helper.rb eef3d3adce96afe8b14c19b6135323f47543d979
+app/helpers/registrations_helper.rb 37b2a26d7a107fb24d0dc648ad6d739722dfec0f
+app/controllers/application_controller.rb 2036468398e54b3fc8af23cb6f9e1716293320eb
+app/controllers/registrations_controller.rb a0311a04623bc8d75b54a3b0f0bee38480896369
