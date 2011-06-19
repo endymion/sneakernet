@@ -7,3 +7,5 @@ Sneakernet Forum is free and open-source software for creating a distributed web
 web server nodes coordinate to create a single, coherent discussion forum.  The web server nodes can operate in
 disconnected mode, and they can relay messages for other nodes.  This enables forum participation for users without
 Internet connections, using web server nodes that also do not have Internet connections.
+
+![Message Relay Overview](diagrams/message_relay_overview.png)

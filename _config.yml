@@ -1,0 +1,3 @@
+# Configuration file for Jekyll, which generates the HTML web site in "site", for use by GitHub Pages.
+
+markdown: rdiscount
