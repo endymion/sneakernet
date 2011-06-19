@@ -27,6 +27,13 @@ nodes are blocked by Internet filters or are otherwise unreachable.  Sneakernet 
 for users who have no Internet access, as opposed to intermittent Internet access.  It allows a chain of intermediate
 relay nodes to carry messages back and forth to the Internet.
 
+![How It Works](diagrams/how_it_works.png)
+
+The Sneakernet Forum software maintains copies of the conversations on your forum in multiple different places,
+including USB flash drives.  If you post a message to a conversation from any node, then your message will be
+copied to all of the other nodes when people sync different nodes to one another.  Even if the node that you can
+access never has Internet access, your messages can still reach the Internet through relay nodes.
+
 # Status
 
 Sneakernet Forum is currently experimental, and is not yet ready for widespread deployment.  Please contact
