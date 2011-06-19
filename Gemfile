@@ -12,8 +12,9 @@ gem 'ruby-debug19', :require => 'ruby-debug'
 gem 'rdiscount'
 gem 'yard'
 
-group :test do
+group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
+  gem 'factory_girl'
   gem 'capybara'
 end
