@@ -11,6 +11,7 @@ gem 'ruby-debug19', :require => 'ruby-debug'
 # Documentation.
 gem 'rdiscount'
 gem 'yard'
+gem 'jekyll'
 
 group :development, :test do
   gem 'rspec'
