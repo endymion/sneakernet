@@ -5,34 +5,37 @@ title: Sneakernet Forum
 
 # Sneakernet Forum -- Internet forum software for people without Internet access.
 
+An traditional Internet forum is a web application that hosts discussions.  People can participate in the
+conversations by connecting to the web site directly.  In Figure 1, the Internet discussion forum at
+www.yourforum.com consists of a collection of messages, and Person A and Person B have both posted messages by
+directly connecting to the web site through the Internet.  Person C and Person D, who don't have a way
+to connect to the web site using the Internet, cannot participate in the discussion forum.
+
+  ![Traditional Web Forum](diagrams/traditional_web_forum.png)
+  *Figure 1: Traditional Web Forum*
+
 Sneakernet Forum is free and open-source software for creating a distributed web forum.  Multiple different independent
 web server nodes coordinate to create a single, coherent discussion forum.  The web server nodes can operate in
 disconnected mode, and they can relay messages for other nodes.  This enables forum participation for users without
 Internet connections, using web server nodes that also do not have Internet connections.  Sneakernet Forum allows
 messages to be relayed using a "[sneakernet](http://en.wikipedia.org/wiki/Sneakernet)", including USB Flash drives or
-any other form of mobile media.
+any other form of mobile media.  In Figure 2, the Internet discussion forum at www.yourforum.com consists of a
+collection of messages, which are also copied periodically onto USB flash drives.  When you plug one of those
+flash drives into a computer, it becomes a part of the www.yourforum.com discussion forum, even if it can't connect
+through the Internet to www.yourforum.com.  Person B carries a usb flash drive that contains copies of most of the
+messages in the forum.  Person C and Person D can access the forum using usb flash drives that have been synced
+with the main web site, or they can be synced second-hand or third-hand.
 
-![Message Relay Overview](diagrams/message_relay_overview.png)
-
-An ordinary Internet forum is a web application that hosts discussions.  People can participate in the conversations by
-connecting to the web site directly.  Some discussion systems, such as [Usenet](http://en.wikipedia.org/wiki/Usenet)
-enable conversations using [distributed](http://en.wikipedia.org/wiki/Distributed_computing) systems, consisting of
-multiple different independent sites.  A conversation on Usenet may consist of messages written by users of different
-Usenet nodes, which may not be directly connected to one another.
-
-Sneakernet Forum uses a similar design to create coherent discussions using multiple different independent nodes.
-But unlike Usenet, Sneakernet Forum nodes are designed to be portable, possibly carried on USB Flash drives and other
-mobile media.  Sneakernet Forum nodes are also capable of connecting to alternate Internet nodes when the primary
-nodes are blocked by Internet filters or are otherwise unreachable.  Sneakernet Forum, unlike Usenet, is designed
-for users who have no Internet access, as opposed to intermittent Internet access.  It allows a chain of intermediate
-relay nodes to carry messages back and forth to the Internet.
-
-![How It Works](diagrams/how_it_works.png)
+  ![Distributed Relay Forum](diagrams/distributed_relay_forum.png)
+  *Figure 2: Distributed Relay Forum*
 
 The Sneakernet Forum software maintains copies of the conversations on your forum in multiple different places,
 including USB flash drives.  If you post a message to a conversation from any node, then your message will be
 copied to all of the other nodes when people sync different nodes to one another.  Even if the node that you can
 access never has Internet access, your messages can still reach the Internet through relay nodes.
+
+  ![Message Relay Overview](diagrams/message_relay_overview.png)
+  *Figure 3: Message Relay Overview*
 
 # Status
 
