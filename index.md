@@ -6,7 +6,7 @@ title: Sneakernet Forum
 # Sneakernet Forum
 ## Internet forum software for people without Internet access.
 
-An traditional Internet forum is a web application that hosts discussions.  People can participate in the
+A traditional Internet forum is a web application that hosts discussions.  People can participate in the
 conversations by connecting to the web site directly.  In Figure 1, the Internet discussion forum at
 www.yourforum.com consists of a collection of messages, and Person A and Person B have both posted messages by
 directly connecting to the web site through the Internet.  Person C and Person D, who don't have a way
